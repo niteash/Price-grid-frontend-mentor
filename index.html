@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <title>Price Grid</title>
+</head>
+<style>
+    body{
+        font-family: 'Karla', sans-serif;
+        background-color: rgb(214, 243, 252);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .top{
+     margin-left: 30px;
+     
+    }
+
+    .main{
+        padding-bottom: 20px;
+    }
+    .container{
+        background-color: white;
+        padding: 20px;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        border-radius: 10px;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 10%;
+
+      
+
+      
+    }
+
+    h3{
+        color: hsl(179, 62%, 43%);
+    }
+
+    .title{
+        color: hsl(71, 73%, 54%);
+    }
+
+    p{
+        color: hsl(204, 17%, 88%);
+        word-break: 10;
+    }
+
+    .footmain{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+        align-items: center;
+        width: 100%;
+
+     
+    }
+
+    .foot1{
+        background-color:hsl(179, 62%, 43%);
+        padding: 20px;
+       width: 50%;
+       border-radius: 0 0 0 10px;
+       height: 242px;
+       
+    }
+
+    .btn{
+        background-color:hsl(71, 73%, 54%);
+        border: none;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 30px;
+        color: white;
+        display: flex;
+        width: 200px;
+        padding-left: 75px;
+        margin-top: 50px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+    }
+
+    .foot2{
+        padding: 20px;
+       width: 50%;
+        height: 242px;
+        background-color:hsl(179, 62%, 49%);
+        border-radius: 0 0 10px 0;;
+     
+       
+
+    }
+
+    h4,h1,h5{
+        color:white;
+    }
+
+    .line{
+        line-height: 22px;
+        opacity: 50%;
+    }
+
+    small{
+        font-size: 15px;
+        opacity: 0.5;
+    }
+
+    .box1 h5{
+        opacity: 0.8;
+    }
+
+    .box1 h4, h1, h5{
+        margin-left: 35px;
+    }
+</style>
+<body>
+   
+    <div class="container">
+        <div class="main">
+            <h3 class="top">  Join our community</h3>
+
+            <h4 class="title top"> 30-day, hassle-free money back guarantee</h4>
+        
+            <p  class="top">Gain access to our full library of tutorials
+                along with expert code reviews. <br>Perfect for any developers who are serious about honing their skills.</p>
+        </div>
+
+      <div class="footmain">
+        <div class="foot1">
+            <div class="box1">
+                <h4>Monthly Subscription</h4>
+                <h1>$29 <small>per month</small></h1>
+                <h5>Full access for less than $1 a day</h5>
+
+                <button class="btn">Sign Up</button>
+
+            </div>
+           
+
+        </div>
+        <div class="foot2">
+            <div class="box2">
+                <h4>Why Us</h4>
+                <h5 class="line"> Tutorials by industry experts
+                    <br>
+                    Peer &amp; expert code review
+                    <br>
+                    Coding exercises
+                    <br>
+                    Access to our GitHub repos
+                    <br>
+                    Community forum
+                    <br>
+                    Flashcard decks
+                    <br>
+                    New videos every week</h5>
+            </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
